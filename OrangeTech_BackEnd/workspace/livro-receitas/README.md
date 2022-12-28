@@ -1,4 +1,5 @@
-#Receitas :man cook:
+#Receitas 
+
 "receitas"
 
-os: treino de repositório via git.bash
+obs: treino de repositório via git.bash
