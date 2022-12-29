@@ -16,3 +16,4 @@ public class Multi {
         System.out.println("PROD = "+PROD);
     }
 }
+
