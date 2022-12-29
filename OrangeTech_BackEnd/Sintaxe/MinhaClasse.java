@@ -13,7 +13,7 @@ public class MinhaClasse {
         //Variaveis com letra maiuscula
         //variavel fixa = constante
         final String BR = "Brasil";
-        int ANO_2000 = 2000;
+        final int ANO_2000 = 2000;
         //-----------------------------
 
         String primeiroNome = "Angelo";
@@ -21,6 +21,29 @@ public class MinhaClasse {
 
         String nomeCompleto = nomeCompleto(primeiroNome,segundoNome);
         System.out.println(nomeCompleto);
+
+
+        /*
+        * Variavel clara e direta sem abreviacoes
+        * Variavel no singular exceto array
+        * Idioma unico sem misturar
+        * */
+
+        /*
+        * Tipos primitivos:
+        * int
+        * byte
+        * short
+        * long = L no final
+        * float = F no final
+        * double
+        * boolean
+        * char
+        * */
+
+        /*
+        *
+        * */
 
 
     }
