@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"OrangeTech_BackEnd.Sintaxe","l":"MinhaClasse"},{"p":"OrangeTech_BackEnd.Sintaxe","l":"Tv"},{"p":"OrangeTech_BackEnd.Sintaxe","l":"Usuario"}];updateSearchResults();
