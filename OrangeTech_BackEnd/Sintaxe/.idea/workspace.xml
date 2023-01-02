@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a73dce1e-45be-4f49-b5db-888d17654795" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Oi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../teste/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../teste/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../teste/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/DIO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/DIO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multiplicacao/Multi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Multiplicacao/Multi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinhaClasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/MinhaClasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tv.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/.idea/DIO.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../teste/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../teste/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Anotacoes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/DIO - Trilha - Java Básico - Fundamentos.pptx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Desenvolvimento Moderno de Software.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Multiplicacao/Multi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Multiplicacao/out/production/DIO/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Multiplicacao/out/production/DIO/.idea/DIO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../teste/teste.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Multiplicacao/out/production/DIO/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Multiplicacao/out/production/DIO/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../teste/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Multiplicacao/out/production/DIO/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Multiplicacao/out/production/DIO/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Multiplicacao/out/production/DIO/Anotacoes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Primeiros passo atualizado.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Sintaxe/MinhaClasse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Sintaxe/Tv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Sintaxe/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Soma/Soma.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/Table of contents - Documentação Java DIO.mhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/workspace/livro-receitas/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/workspace/livro-receitas/receitas/strogonoff.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/workspace/livro-receitas/strogonoff.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/OrangeTech_BackEnd/workspace/texto.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/DIO/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2JdtqaUwsCvMK4XpZgUyB22SShP" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a73dce1e-45be-4f49-b5db-888d17654795" name="Changes" comment="" />
+      <created>1672419979402</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672419979402</updated>
+    </task>
+    <servers />
+  </component>
+</project>
