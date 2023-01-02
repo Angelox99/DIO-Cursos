@@ -1,4 +1,4 @@
-package OrangeTech_BackEnd.Multiplicacao;
+package OrangeTech_BackEnd.Muliplicacao.src;
 
 import java.util.Scanner;
 
@@ -16,4 +16,5 @@ public class Multi {
         System.out.println("PROD = "+PROD);
     }
 }
+
 
