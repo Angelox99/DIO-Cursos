@@ -1,4 +1,6 @@
-package OrangeTech_BackEnd.Sintaxe;
+package OrangeTech_BackEnd.Sintaxe.src;
+
+import OrangeTech_BackEnd.Sintaxe.src.Tv;
 
 public class Usuario {
     public static void main(String[] args) {
@@ -21,7 +23,5 @@ public class Usuario {
         Tv.aumentarCanal();
         Tv.diminuirCanal();
         Tv.diminuirCanal();
-
-
     }
 }
