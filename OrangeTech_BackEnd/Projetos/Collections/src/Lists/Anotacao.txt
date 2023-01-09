@@ -1,0 +1,9 @@
+Java.util.List
+		-Elementos duplicados, Garante ordem de inserção
+
+	List
+		-ArrayList
+		-Vector
+		-LinkedList
+	Queue
+		-LinkedList

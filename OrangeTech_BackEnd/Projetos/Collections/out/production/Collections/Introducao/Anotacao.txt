@@ -1,0 +1,19 @@
+Collection:
+	-Multiplos elementos (primitivos ou objetos)
+
+	-Interface
+	-Implementacao
+	-Algoritimos
+	
+	Hierarquia:
+		-Set
+			-HashSet
+			-LinkedHashSet
+			-TreeSet
+		-List
+			-ArrayList
+			-LinkedList
+		-Map
+			-HashMap
+			-LinkedHashMap
+			-TreeMap
