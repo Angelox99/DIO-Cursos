@@ -1,0 +1,3 @@
+Nao permite elementos duplicados
+Nao possui indice
+

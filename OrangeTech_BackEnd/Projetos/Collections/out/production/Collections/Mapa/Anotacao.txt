@@ -1,0 +1,10 @@
+Interface Map
+    -HashMap
+    -LinkedHashMap
+    -TreeMap
+        -NavigableMap
+            -SortedMap
+
+Valores unicos
+    -key
+    -value

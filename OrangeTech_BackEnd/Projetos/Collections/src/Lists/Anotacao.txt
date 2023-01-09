@@ -7,3 +7,41 @@ Java.util.List
 		-LinkedList
 	Queue
 		-LinkedList
+		
+	.add(x)
+		-adiciona o valor na list=list.add(x);
+		-adiciona o valor na posição = list.add(i,x);
+	
+	.set(i,x)
+		-substitui o valor da posição = list.set(list.indexof(y),x);
+		(list.indexof(y) -> )
+	
+	toString(x)
+		- ?
+	indexOf(x)
+		-Retorna a posicao i do valor x
+	contains(x)
+		-verifica se o valor x esta na lista
+	get(i)
+		-retorna o valor da posição i
+	Collections.min()
+		-retorna o menor valor
+	Collections.max()
+		-retorna o maior valor 
+	iterator()
+		- ? 
+	iterator().hasNext()
+		- tem próximo valor ?(boolean)
+	iterator().next()
+		- pega o próximo valor
+	size()
+		-retorna o valor do tamanho da list
+	remove()
+		-remove(i) = remove o valor do índice da list 
+		-remove(x) = remove o valor da list
+	iterator().remove()
+		-remove o valor
+	clear()
+		-Apaga toda a lista
+	isEmpty()	
+		-ta vazia ? (boolean)
