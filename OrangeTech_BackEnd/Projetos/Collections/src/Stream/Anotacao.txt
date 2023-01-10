@@ -1,0 +1,31 @@
+Classe Anonima
+    -Classe sem nome, declarado e instanciado de uma vez
+    -Uso unico
+
+Functional Interface
+    -SAM(Single Abstract Method) = Metodo abstrado unico
+    -Expressoes lambda
+    -Comparator
+    -Consumer
+    -Function
+    -Predicate
+
+Lambda
+    -Funcao sem declaracao
+        -Sem nome
+        -Sem retorno
+        -Sem modificador de acesso
+    -Declarado aonde vai ser usado
+    -Sintaxe
+        -(argumento)->(corpo)
+
+Rederence Method
+    -Referencia um metodo ou construtor
+    -Simplificar uma lambda expression
+    -Sem parentese no final
+    -Sintaxe
+        - ::
+
+Stream API
+    -Source -> Pipeline -> Terminal
+    -Facilita a manipulacao de collections
