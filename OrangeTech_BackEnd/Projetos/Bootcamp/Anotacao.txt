@@ -1,0 +1,27 @@
+POO
+    -Paradigma = modelo a ser seguido
+    -Programacao = Desenvolvimento de uma aplicacao
+    -Orientada = Segue uma orientacao
+    -Objeto = molde que representa uma classe
+
+Linguagem
+    -Niveis de abstracao
+    -Paradigma de programacao:
+        -Imperativo:
+            -Estruturado
+            -Concorrente
+            -Orientado a Objeto
+        -Declarativo:
+            -Funcional
+            -Logico
+    -Arquitetura de aplicacao
+    -Tipos de execucao
+
+Bootcamp
+    -Nome
+    -Descricao
+    -Data inicial
+    -Datafinal
+    -Devs
+    -Cursos
+    -Mentorias

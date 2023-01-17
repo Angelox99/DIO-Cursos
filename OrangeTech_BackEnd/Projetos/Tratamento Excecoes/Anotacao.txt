@@ -1,0 +1,11 @@
+Unckecked(Runtime)
+    -Exceptions que PODEM ser evitados e tratados pelo dev
+    -Tratamento opcional
+
+Checked Exception
+    -Exceptions que DEVEM ser ecitados e tratados pelo dev
+    -Tratamento obrigatorio
+
+Erro(Memoria)
+    -JVM indica que tem um problema
+    -nao pode

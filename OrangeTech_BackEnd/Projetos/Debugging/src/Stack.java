@@ -1,4 +1,4 @@
-public class Main {
+public class Stack {
     public static void main(String[] args) {
         System.out.println("\nInicio do main");
 
@@ -24,7 +24,7 @@ public class Main {
     static void C(){
         System.out.println("\nEntrou no C()");
 
-        Thread.dumpStack();//Le de baixo pra cima 
+        Thread.dumpStack();//Le de baixo pra cima
 //        D();
 
         System.out.println("Finalizou o C()");
