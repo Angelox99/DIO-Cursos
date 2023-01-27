@@ -1,0 +1,141 @@
+POM:
+    -Project Object Model(
+        xml,
+        Detalha o projeto e como construir(build e package))
+            -Nome do projeto
+            -Dependencias
+            -Modulos
+            -Configuracoes de build
+            -Detalhes do projeto(nome, descricao, licenca,url)
+            -Configuracoes de ambiente(repositorios, Tracking,profiles)
+        SUPER POM <-Extends- pom.xml(caso nao declare tudo)
+
+        Exemplo:
+        -----ID do Projeto:
+            <groupId>br.com.exemplo</groupId>
+            <artifactId>exemplo-maven</artifactId>
+            <version>1.0-SNAPSHOT</version>
+
+        -----Propriedades do Projeto:
+            <properties>
+              <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+              <maven.compiler.source>1.7</maven.compiler.source>
+              <maven.compiler.target>1.7</maven.compiler.target>
+            </properties>
+
+        -----Dependencias:
+            <dependencies>
+              <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.11</version>
+                <scope>test</scope>
+              </dependency>
+            </dependencies>
+
+        -----Informacoes de Build e Plugins Maven:
+            <build>
+              <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+                <plugins>
+                  <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+                  <plugin>
+                    <artifactId>maven-clean-plugin</artifactId>
+                    <version>3.1.0</version>
+                  </plugin>
+                  <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+                  <plugin>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>3.0.2</version>
+                  </plugin>
+                  <plugin>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.0</version>
+                  </plugin>
+                  <plugin>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>2.22.1</version>
+                  </plugin>
+                  <plugin>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>3.0.2</version>
+                  </plugin>
+                  <plugin>
+                    <artifactId>maven-install-plugin</artifactId>
+                    <version>2.5.2</version>
+                  </plugin>
+                  <plugin>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>2.8.2</version>
+                  </plugin>
+                  <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
+                  <plugin>
+                    <artifactId>maven-site-plugin</artifactId>
+                    <version>3.7.1</version>
+                  </plugin>
+                  <plugin>
+                    <artifactId>maven-project-info-reports-plugin</artifactId>
+                    <version>3.0.0</version>
+                  </plugin>
+                </plugins>
+              </pluginManagement>
+            </build>
+
+Unidade fundamental de trabalho
+Formato XML
+Detalha o projeto
+Detalha como construir o projeto
+Maven procura pom.xml para executar
+===================================================================================================================================================
+Repositorios:
+    Onde encontra plugins e bibliotecas do Maven
+        Local
+            Repositorio na maquina local usado pelo maven para buscar artefatos
+            Estrategia de caching
+            Locais do repositorio
+                Win : %USERPROFILE%\.m2\repository
+                Linux : $HOME/.m2/repository
+        Remoto
+            Onde o Maven procura artefatos
+            Configurado automaticamente pelo SUPER POM pra usar Maven Central(Site com todas dependencias)
+        Configuracao
+            via pom.xml
+            via settings.xml
+        Funcionamento
+            mvn compile <-> Repo Local
+            Repo Local <- mvn compile <-> Repo Remoto
+===================================================================================================================================================
+Dependencias:
+    groupId : Id da organizacao (regras de pacote java)
+    artifactId : Nome do projeto
+    Version : Numero da versao que sera utilizada
+    Tipos
+        Direta
+            Dependencias declaradas no pom.xml
+        Transitiva
+            Dependencias obrigatorias das dependencias declaradas no pom.xml
+    Classpath
+        Runtime
+        Test
+        Compile
+    Escopo
+        Default - Transitivo
+        Provided - Nao Transitivo
+            fornecida via JDK ou Container
+            exemplo: Servlet API, Java EE APIs
+            Dependencias sao adicionada no classpath compile e test, mas nao em runtime
+        Runtime -
+            Necessaria para execucao e nao para compilaçao
+            Maven inclui no classpath dos escopos de runtime e test
+        Test - Nao Transitivo
+            Somente na compilacao e testes
+        System - Nao Transitivo
+            Similar ao provided mas é necessario prover JAR explicitamente - <systemPath>
+            Adicionado no classpath usado para compile e test mas nao em runtime
+        Import -
+            Disponivel apenas com dependencia do tipo pom e com tag <dependencyManagement>
+            Indica um processo de reutilizar dependencias de um projeto
+    Opcionais
+        Quando a dependencia nao e necessara para os projetos que irao reutilizar seu componente
+    Exclusions
+        Quando o componente compartilha um biblioteca ja utilizada ou que nao queira
+

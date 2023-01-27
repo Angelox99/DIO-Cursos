@@ -1,0 +1,88 @@
+HTTP
+    -HyperText Transfer Protocol(HTTP)
+    -RFCs 1945 e 2116
+    -Protocolo de comunicacao
+    -Browser
+    -Servidor
+    -Stateless
+    -Client/Server
+    -Coockies(Track)
+        -de Sessao (Apagados ao encerrar a sessao)
+        -de Persistentes(Constantes por meses ou anos),ex: logins ativos
+
+HTTP 1.1
+    HEADER
+        -Request line
+        -Header Lines
+    PAYLOAD
+        -Entity Body
+        -Entity Body
+    -Blank Lines
+
+HTTP 2.0
+    -Multiplexção
+    -Priorização de recursos
+    -Segmentacao
+        -Streaming ID header
+        -Streaming ID data
+    -PUSH(Cliente deve ter suporte se nao da problema)
+        -Configuracao incorreta = problemas
+    -Unica conexao persistente
+    -Compressao de header
+    -Server PUSH
+    -HTTPS por padrao - TLS
+    -Negociacao do handshake(Perguntar ao cliente se ele suporta o 2.0)
+    -Mixe1.1 e 2.0
+        -Lentidao
+        -Load balancar - HTTP1.1
+
+Servidores
+    -Apache
+        Linux e Windows
+    -NGINX
+    -XAMPP
+        Para testes e desenvolvimento
+        Sem Internet
+        Pouca seguranca
+
+SSL - Secure Socket Layer
+    -Handshake
+    -Key Derivation
+    -Data Transfer
+
+LGPD - Lei Geral de Protecao de Dados
+---------------------------------------------------------------------------
+
+Index
+    -Pagina raiz
+
+Conection
+    -close: ao encerrar o comando encerrar o servico
+
+GET(SEGURO)
+    Solicita um recurso do servidor
+HEAD
+    GET sem corpo de resposta
+POST(SEGURO)
+    Submete uma entidade a um recurso
+PUT
+    Substituicao de recursos pelos dados da requisicao
+DELETE
+    Remocao de um recurso
+TRACE
+    Chamada de loop-back a um determinado recurso
+OPTION(SEGURO)
+    opcoes de comunicacao com recurso
+CONNECT
+    Tunelamento identificado pelo recurso
+PATCH
+    Modificacao parcial
+
+HTTP RESPONSE
+    Status Code
+        Informatio(100-199)
+        Successful(200-299)
+        Redirection(300-399)
+        Client error(400-499)
+            error 404 - Not Found
+        Server error(500-599)
