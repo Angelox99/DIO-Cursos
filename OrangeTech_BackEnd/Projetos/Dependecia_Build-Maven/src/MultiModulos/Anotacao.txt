@@ -1,0 +1,13 @@
+(Exemplos de projetos(4 projetos diferentes))
+Core
+Service
+Webapp
+Controller
+
+(Exemplo de Multimodulo(os 4 projetos fazem parte de 1 so))
+    Core
+    Service
+    Webapp
+    Controller
+
+    

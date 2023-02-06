@@ -1,0 +1,32 @@
+Lifecycle
+    Ciclo de vida de construcao
+    Comandos da ferramenta
+    3 Ciclos de vida
+        -Default
+            Principal ciclo
+            Responsavel pelo deploy local
+            Composto por 23 fases
+                (Principais fases)
+                -validate
+                -compile
+                -test-compile
+                -test
+                -integration-test
+                -package
+                -install
+                -deploy
+        -Clean
+            pre-clean
+            clean
+            post-clean
+        -Site
+            Ciclo final
+            Criação do site de documentação do projeto
+            Composto por 4 fases
+                -pre-site
+                -site
+                -post-site
+                -site-deploy
+
+    Ciclo possui fases(Maven Phases)
+    Fases possuem objetivos(Maven Goals)
