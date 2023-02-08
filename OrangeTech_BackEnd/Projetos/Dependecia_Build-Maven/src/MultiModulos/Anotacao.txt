@@ -10,4 +10,15 @@ Controller
     Webapp
     Controller
 
-    
+Plugins mais utilizados:
+    -Eclipse
+    -Jacoco
+    -ear
+    -war
+    -compile
+    -clean
+    -checkstyle
+    -javadoc
+
+    USO
+        mvn (plugin-name):(goal-name)

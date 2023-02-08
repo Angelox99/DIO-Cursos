@@ -1,0 +1,36 @@
+O que e SpringBoot
+    Configuracao automatica
+    Antes:
+        Dependencia adicionadas individual
+        Verbosidade
+        Incompatibilidade de versoes
+        Complexidade de gestao
+        Configuracaoes complexas e repetitivas
+Configuracoes Manuais
+Starters
+    Descritores de dependencias
+    Beneficios:
+        Coesao
+        Versoes compativeis
+        Otimizacao do tempo
+        Configuracao simples
+        Foco no negocio
+    Spring-boot-starters:
+        data-jpa
+            integracao ao bd via JPA - Hibernate
+        data-mongodb
+            integracao com o bd MongoDB
+        web
+            Inclusao do container Tomcat para app REST
+        web-services
+            Webservices baseados na arquitetura SOAP
+        batch
+             Implementacao de JOBs de processos
+        test
+            Disponibilizacao de recursos para testes unitarios como JUnit
+        openfeign
+            Client HTTP baseado em interfaces
+        actuator
+            Gerenciamento de monitoramento da aplicacao
+Principais Starters
+Configuracao de Fabrica

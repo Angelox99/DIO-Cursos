@@ -1,0 +1,43 @@
+SpringBoot Framework
+( Modulos afim de reduzir a complexidade de aplicacoes simples ou corporativas.)
+
+    -Inversao de controle(IoC)
+        Sem IoC
+            app
+            cria objeto
+            usa objeto
+        Com IoC
+            App-------- ->  Container
+            usa objeto  ->  Cria Objeto
+
+    -Injecao de dependencia,
+        app ----- -> Container_________
+        |               |              |
+        |    v----------Real Object    Real Object
+        |->Interface        Interface<-------|
+
+    -Spring x Java EE
+    -O que e SpringBoot?
+    -Beans
+         Objeto instanciado e gerenciado pelo container usando IoC
+    -Autowired
+        Anotacao onde deve ocorrer uma injecao automatica de dependencia
+            byName
+            byType
+            byConstrutor
+    -Scopes
+        Standalone
+            Singleton
+                unico objeto compartilhado pela aplicacao inteira
+            Prototype
+                cria uma nova instancia a cada requesicao ao container
+        HTTP
+            Request
+                Um bean é criado para cada requesicao HTTP
+            Session
+                Um bean é criado para cada sessao de usuario
+            Global
+                Um bean é criado para cada ciclo de vida da aplicacao
+    -Spring Data JPA
+    -outros...
+
