@@ -34,3 +34,14 @@ Starters
             Gerenciamento de monitoramento da aplicacao
 Principais Starters
 Configuracao de Fabrica
+Spring dataJPA
+    Mecanismo de comunicacao com o banco de dados atraves de interfaces para prover recursos comuns ja existentes em uma aplicacao tradicional(crwd, ou algo assim)
+
+Repository
+    e um padrao de projeto similar ao DAO (Data Acess Object) no sentidode que seu objetivo é abstrair o acesso a dados de forma generica a partir do seu modelo
+    AOP(Aspect Oriented Progamming - progamacao orientada a aspectos)
+Consultas Customizadas
+    QueryMethod
+        JPA interpreta a assinatura de um metodo(nome+parametros) para montar a JPQL
+    QuerOverride
+        Consulta de forma manual atraves da anotacao @Query

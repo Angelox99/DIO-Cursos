@@ -1,0 +1,30 @@
+Spring Web Rest API
+    -Criar um projeto web
+    -Configurando Controllers
+    -Documentar a API com Swagger
+    -Tratamento de exececoes com Handlers
+    -...
+
+Spring WEB
+    -REST e RESTful
+    -Controllers
+    -Swagger
+    -Exception Handler
+
+API(Interface Application Program)
+    -Codigo programavel que faz a ponte de comunicacao entre duas aplicacoes distintas
+
+API REST (Representational State Transfer)
+    -E como um guia de boas praticas e RESTful é a capacidade de determinado sistema aplicar os PRINCIPIOS de REST
+        PRINCIPIOS:
+            -Cliente-Servidor
+            -Interface Uniforme
+            -Stateless
+            -Cache
+            -Camadas
+
+MATURIDADE
+    -3 Hypermedia Controls
+    -2
+    -1
+    -0
