@@ -84,3 +84,18 @@ Rest Controller
             Converte um JSON para o tipo do objeto esperado como parametro no metodo
         @PathVariable
             Consegue determinar que parte da URI sera composta por parametros recebidos nas requisicoes
+
+Swagger
+    Linguagem de descricao de interface para descrever APIs RESTful expressas usando JSON
+
+Exception Handlers
+    Codigo que estipula o que um programa fara quando um evento anomalo interromper o fluxo normal das instrucoes desse programa.
+        Solucoes:
+            1-Nivel do Controller - @ExceptionHandler
+                Cada metodo trata uma excecao de forma declarativa com @ExceptionHandler
+            2-ResponseStatusExceptionResolver
+                Usar a anotacao @ResponseStatus disponivel em excecoes personalizadas e mapear essas excecoes para codigo de status HTTP
+    RestControllerAdvice
+        @ControllerAdvice nos permite consolidar nossos multiplos @ExceptionHanderls
+    GlobalExceptionHandler
+        Tratamento de excecoes global para interceptar todas as excecoes que ocorrem em nossa aplicacao, sem precisar tornar declarativo todos os recursos

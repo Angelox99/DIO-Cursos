@@ -1,0 +1,24 @@
+Padroes de Projeto
+    Sao solucoes consolidadas para problemas recorrentes no desenvolvimento e manutencao de software orientado a objetos
+        -Criacionais
+            Abstract Factory, Builder, Factory Method, Prototype, Singleton.
+                Singleton:
+                    Permiti a criacao de uma unica instancia de uma classe e fornece um modo para recuperala
+                Strategy:
+                    Simplifica a variacao de algoritmos para a resolucao de um mesmo problema.
+                Facade:
+                    Prover uma interface que reuza a complexidade nas integracoes com subsistemas
+
+        -Compotamentais
+            Chain of Responsibility, Iterator, Observer, Strategy, Template Method.
+        -Estruturais
+            Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy.
+
+
+    Padroes Spring Framework
+        -Singleton:
+            @Bean e @Autowired;
+        -Strategy:
+            @Service e @Repository
+        -Facade:
+            API REST, integracoes:SpringDataJPA e ViaCEP(Feign)
