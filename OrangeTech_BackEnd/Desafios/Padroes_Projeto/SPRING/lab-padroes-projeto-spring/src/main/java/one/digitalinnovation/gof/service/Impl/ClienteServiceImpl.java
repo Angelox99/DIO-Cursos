@@ -1,4 +1,4 @@
-package one.digitalinnovation.gof.service.Impl;
+package one.digitalinnovation.gof.service.impl;
 
 import one.digitalinnovation.gof.model.Cliente;
 import one.digitalinnovation.gof.service.ClienteService;
