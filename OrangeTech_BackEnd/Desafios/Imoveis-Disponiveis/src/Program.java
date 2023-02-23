@@ -11,14 +11,8 @@ public class Program {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
         String frase = leitor.next();
-//        String[] array = new String[3];
-
         String[] array = frase.split("/");
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
-        }
-
-//        var imovel = System.out.printf("Imovel: " + array[1] + "R$" + array[2] + array[3]);
+        System.out.printf(frase[1]);
 
 //        for (String s : frase.split("/")) {
 //            System.out.println(s);
